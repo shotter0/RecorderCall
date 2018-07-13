@@ -23,7 +23,10 @@ public class ViewSizeChange {
     public static void changeSurfaceSmall(RelativeLayout surfaceView) {
         int height = SharedPerManager.getScreenHeight();
 //        int viewSize = 150;
-        int viewSize = 80;
+//        int viewSize = 80;  //30cm
+        int viewSize = 78;
+//      int viewSize = 87;     //42
+//        int viewSize = 95;     //45mm
         RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) surfaceView.getLayoutParams();
         params.width = viewSize;
         params.height = viewSize;
